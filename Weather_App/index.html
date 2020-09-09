@@ -6,12 +6,33 @@
 	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-	<header>Weather App</header><br>
-	<div id="salutation"></div>
-	    	
+    <section class="top-banner">
+		<header>
+			<h1>Weather App</h1>
+			<div id="salutation"></div>
+		</header>
+			<div class="container">
+			    	<form>
+					    <input type="text" placeholder="Search for a city" autofocus>
+						    <button type="submit">SUBMIT</button>
+						       <span class="msg"></span>
+			        </form>
+			</div>
+	</section>
+			<section class="ajax-section">
+				<div class="container">
+						<ul class="cities"></ul>
+				</div>
+			</section>
+				<footer class="page-footer">
+					  <div class="container">
+						    <small>Made with <span>❤</span> by <a href="https://github.com/veldakarimi" target="_blank">Velda Kiara</a>
+						    </small>
+					  </div>
+				</footer>
 
-		<script type="text/javascript" src="index.js">
-		</script>
+<script type="text/javascript" src="index.js"></script>
+
 		
 </body>
 </html>

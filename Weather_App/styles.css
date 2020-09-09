@@ -4,13 +4,13 @@ body{
 	background-repeat: no-repeat;
 	height: 2000px;
 }
-header{
+header h1{
 	color:white;
     width: 90px;
     padding: 10px;
     border: 5px solid white;
     margin: 0;
 }
-#salutation{
+header #salutation{
 	color:white;
 }
