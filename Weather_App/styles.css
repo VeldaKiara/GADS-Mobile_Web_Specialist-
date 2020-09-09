@@ -4,13 +4,12 @@ body{
 	background-repeat: no-repeat;
 	height: 2000px;
 }
-header h1{
-	color:white;
-    width: 90px;
-    padding: 10px;
-    border: 5px solid white;
-    margin: 0;
-}
-header #salutation{
+.top-banner{
 	color:white;
 }
+ .top-banner header{
+  
+	
+	
+}
+
