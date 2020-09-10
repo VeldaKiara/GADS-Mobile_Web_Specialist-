@@ -1,12 +1,18 @@
 body{
-	background-image: url(images/image1.jpg);
+	background-image: url(images/weather1.png);
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 2000px;
+	height: 1000px;
 }
 .top-nav{
 	color:white;
 }
- 
+a {
+  color: black;
+  text-decoration: none;
+}
+footer .container .heart{
+	color:red;
+} 
 
 
