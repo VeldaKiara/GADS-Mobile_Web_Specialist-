@@ -1,8 +1,8 @@
 body{
-	background-image: url(images/weather1.png);
+	background-image: url(images/weather2.png);
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 1000px;
+	height: 550px;
 }
 .top-nav{
 	color:white;
@@ -14,5 +14,7 @@ a {
 footer .container .heart{
 	color:red;
 } 
-
+button {
+  cursor: pointer;
+}
 
