@@ -9,9 +9,9 @@ function Greetings() {
   } else if (hours >= 12 && hours < 17) {
     timeOfDay = "Afternoon"
   } else {
-    timeOfDay = "Night"
+    timeOfDay = "Evening"
   }
-  let greet = `Good ${timeOfDay} fellow &#x1F607!` 
+  let greet = ` ${timeOfDay}  &#x1F607, Check out the weather!` 
     document.getElementById("salutation").innerHTML = greet
 
 
