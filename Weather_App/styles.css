@@ -32,6 +32,7 @@ button {
 }
 input {
   -webkit-appearance: none;
+ 
 }
 input {
   border: none;
@@ -48,14 +49,17 @@ input {
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 0 15px;
+	display: flex;
+	justify-content: center;
+    align-items: center;
   }
   .top-nav {
 	color:#fff;
 	text-align: center;
   }  
   .top-nav #salutation {
-       padding-bottom: 20px;
-  }
+	   padding-bottom:10px;
+	}
   .top-nav header{
 	font-weight: bold;
     font-size: 3em;
@@ -76,7 +80,7 @@ input {
 	
   }
   .top-nav form input::placeholder {
-	color: grey; 
+	color:#C0C0C0; 
   }
   .top-nav form button {
 	font-size: 1rem;

@@ -13,8 +13,6 @@ function Greetings() {
   }
   let greet = ` ${timeOfDay}  &#x1F607, Check out the weather!` 
     document.getElementById("salutation").innerHTML = greet
-
-
 }
 Greetings();
 
