@@ -69,6 +69,18 @@ img {
 	padding: 5px 5px 10px;
 	border-bottom: 1px solid white;
   }
+  .top-nav form input::placeholder {
+	color: grey; 
+  }
+  .top-nav form button {
+	font-size: 1rem;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	padding: 15px 20px;
+	margin-left: 15px;
+	border-radius: 5px;
+	transition: background 0.3s ease-in-out;
+  }
   
   
   
