@@ -98,5 +98,13 @@ form.addEventListener("submit", e => {
   input.focus();
 });
 
-
-
+db.collection("weather") 
+  .get()
+  .then(querySnapshot => {
+    querySnapshot.forEach(li => {
+      Render(li);
+    });
+  })
+  .catch(error => {
+    console.log("Error getting your details: ", error);
+  });
