@@ -19,7 +19,7 @@ a {
 button {
   cursor: pointer;
   color: white;
-  background-color: #0D98BA;
+  background-color: teal;
 }
 input {
   -webkit-appearance: none;
@@ -105,8 +105,8 @@ input {
 	position: relative;
 	padding: 40px 10%;
 	border-radius: 20px;
-	background: var(--text_light);
-	color: var(--text_med);
+	background-color:teal;
+	color: fff;
   }
   
   .section-aj .city::after {
@@ -119,7 +119,7 @@ input {
 	z-index: -1;
 	opacity: 0.3;
 	border-radius: 20px;
-	background: var(--text_light);
+	background-color:#20b2aa ;
   }
   
   .section-aj figcaption {
@@ -132,7 +132,7 @@ input {
 	font-size: 5rem;
 	font-weight: bold;
 	margin-top: 10px;
-	color: var(--text_dark);
+	color: #1e2432;
   }
   
   .section-aj .city sup {
@@ -142,8 +142,8 @@ input {
   .section-aj .city-name sup {
 	padding: 0.2em 0.6em;
 	border-radius: 30px;
-	color: var(--text_light);
-	background: var(--orange);
+	color: #fff;
+	background: #ff8c00;
   }
   
   .section-aj .city-icon {
@@ -157,6 +157,7 @@ footer{
 	color:black;
 	padding: 10px;
 	text-align: center;
+
 }
 footer .container .heart{
 	color:red;
